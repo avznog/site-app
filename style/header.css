@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (min-width: 600px) {
+    .header-nav-div{
+        background-color: #E1DBD2;
+        height: 100px;    
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+
+    .header-main-list{
+        display: inline-block;
+        width: 100%;
+        list-style: none;
+        
+    }
+
+    .header-list-element{
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
+    .header-title-link{
+        text-decoration: none;
+        color: black;
+        text-align: left;
+    }
+
+    .header-list-element-img{
+        height: 90px;
+        width: 90px;
+    }
+
+
+}
