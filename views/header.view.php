@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Header</title>
-    <style> <?php include("style/header.css"); ?> </style>
-
+    <link rel="stylesheet" type="text/css" href="style/header.css"/>
 
 </head>
 <body>
