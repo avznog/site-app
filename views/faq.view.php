@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="imgfaq">
-        <img  src="./img/faq.jfif" alt="">
+        <img  src="./ressources/faq.jfif" alt="">
     </div>
     <div class="question">
         <div class="q">
