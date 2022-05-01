@@ -1,0 +1,92 @@
+/* Registration ////////////////////////////////////////////////////////////////// */
+
+.limiter1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+
+.wrap1 {
+    width: 520px;
+    height: 500px;
+    padding : 30px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+
+  .img2{
+    width : 65px;
+    height : 65px;
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+  button {
+    border: none;
+    background-color: rgb(195, 166, 253);
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+    width: 120px;
+    margin: 5px;
+    float: right;       
+ }
+
+button:hover {
+    cursor: pointer;
+ }
+
+ hr{
+     color: grey;
+     border: 1px solid grey;
+     margin-bottom: 10px;
+ }
+ .inputgroup {
+    position: relative;
+    margin-bottom: 8px;
+  }
+  .input{
+    width: 20%;
+    line-height: 32px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 13px;
+    border-color: black;
+    margin-bottom: 8px;
+  }
+  .input2{
+    width: 50%;
+    line-height: 32px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 13px;
+    border-color: black;
+    margin-bottom: 8px;
+  }
+  .registration{
+      text-align: center;
+  }
+  .headwrap1{
+    text-align: center;
+    display: inline-block;
+  }
+  a{
+      text-decoration: none;
+  }
+  body{
+  margin: 0;
+  padding: 0;
+}
