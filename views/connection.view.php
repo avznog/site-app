@@ -16,6 +16,9 @@
 					<div class="inputwrap">
 						<input class="inputtext" type="text" name="email ou telephone" placeholder="Email ou Téléphone" required>
 					</div>
+					<div class="inputwrap2">
+						<input class="inputtext" type="password" name="mot de passe" placeholder="Mot de passe" minlength="8" required>
+					</div>
 					<div>
                         <p1>
 						Vous n'avez pas encore de compte ? <a href="login.view.php">Créez-en un ici!</a>

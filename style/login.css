@@ -31,6 +31,9 @@
     vertical-align: middle;
 
   }
+
+  /* Button ////////////////////////////////////////////////////////////////// */
+
   button {
     border: none;
     background-color: rgb(195, 166, 253);
@@ -49,11 +52,8 @@ button:hover {
     cursor: pointer;
  }
 
- hr{
-     color: grey;
-     border: 1px solid grey;
-     margin-bottom: 10px;
- }
+/* Input ////////////////////////////////////////////////////////////////// */
+
  .inputgroup {
     position: relative;
     margin-bottom: 8px;
@@ -76,6 +76,14 @@ button:hover {
     border-color: black;
     margin-bottom: 8px;
   }
+
+  /* Form ------------------------------------------------------------------ */
+
+  hr{
+    color: grey;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
   .registration{
       text-align: center;
   }

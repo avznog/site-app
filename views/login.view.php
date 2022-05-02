@@ -31,10 +31,10 @@
                                     <input class="input2" type="mail" name="mail" placeholder="xyz@exemple.com" required>
                                 </div>
                                 <div>
-                                    <input class="input2" type="password" name="pass" placeholder="Mot de passe" required>
+                                    <input class="input2" type="password" name="pass" placeholder="Mot de passe" minlength="8" required>
                                 </div>
                                 <div>
-                                    <input class="input2" type="password" name="confirmpass" placeholder="Confirmez le mot de passe" required>
+                                    <input class="input2" type="password" name="confirmpass" placeholder="Confirmez le mot de passe" minlength="8" required>
                                 </div>
                                 <hr></hr>
                                 <div>
@@ -42,7 +42,7 @@
                                 </div>
                                 <div>
                                     <button class="button" style="background-color:rgb(195, 166, 253) ">
-                                    Suivant
+                                    S'inscrire
                                     </button>
                                 </div>
                             </div>

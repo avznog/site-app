@@ -17,7 +17,7 @@
   
   .wrap {
       width: 600px;
-      height: 350px;
+      height: 360px;
       padding : 30px;
       background: white;
       border-radius: 20px;
@@ -30,7 +30,13 @@
       width: 80%;
       position: relative;
       border-bottom: 2px solid black;
-    }
+      margin-bottom: 2%;
+  }
+  .inputwrap2{
+  width: 80%;
+  position: relative;
+  border-bottom: 2px solid black;
+}
 
   .inputtext {
       font-size: 20px;
