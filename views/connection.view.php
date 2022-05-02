@@ -9,7 +9,7 @@
 			<div class="wrap">
 				<form class="login-form">
 					<a href="accueil.php">
-					<img class="img" src="../ressources/logo_taker.png" alt="TakeR">
+					<img class="img" src="../ressources/Infinite_measures.gif" alt="Infinite Measures">
 					</a>
 					<h2>Connexion</h2>
 					<br></br>

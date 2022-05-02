@@ -8,7 +8,7 @@
 		<div class="container1" style="background-color : rgb(195, 166, 253);">
 			<div class="wrap1">
                     <a href="accueil.php">
-                        <img class="img2" src="../ressources/logo_taker.png" alt="TakeR">
+                        <img class="img2" src="../ressources/Infinite_measures.gif" alt="Infinite Measures">
                     </a>
                     <div class="headwrap1">
                         <h1>Créez votre compte Take'R</h1>

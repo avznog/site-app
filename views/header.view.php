@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Header</title>
-    <link rel="stylesheet" type="text/css" href="style/header.css"/>
+    <link rel="stylesheet" type="text/css" href="../style/header.css"/>
 
 </head>
 <body>
@@ -10,7 +10,7 @@
             <ul class="header-main-list">
                 <li class="header-list-element header-list-element-one">
                     <a href="#" class="header-title-link">
-                        <img src="ressources/logo_taker.png" class="header-list-element-img"/>
+                        <img src="../ressources/Infinite_measures.gif" class="header-list-element-img"/>
                     </a>
                 </li>
                 <li class="header-list-element header-list-element-two">

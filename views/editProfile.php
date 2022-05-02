@@ -7,7 +7,7 @@
 </head>
 <body>
     <header id="menu">
-        <div><img class="logo" src="../ressources/logo_taker.png" alt="logo Take'R"/></div>
+        <div><img class="logo" src="../ressources/Infinite_measures.gif" alt="logo Infinite Measures"/></div>
         <div class="page">
             <ul class="liste">
                 <li class="bienvenue">Bienvenue user</li>
