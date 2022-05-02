@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>connection</title>
-    <link rel="stylesheet" type="text/css" href="style/connection.css" />
+    <link rel="stylesheet" type="text/css" href="../style/connection.css" />
 </head>
 <body>
 <div class="limiter">
@@ -9,7 +9,7 @@
 			<div class="wrap">
 				<form class="login-form">
 					<a href="accueil.php">
-					<img class="img" src="/Users/kandassamywildrick/Desktop/TakeR.png" alt="TakeR">
+					<img class="img" src="../ressources/logo_taker.png" alt="TakeR">
 					</a>
 					<h2>Connexion</h2>
 					<br></br>
@@ -18,7 +18,7 @@
 					</div>
 					<div>
                         <p1>
-						Vous n'avez pas encore de compte ? <a href="inscription.php">Créez-en un ici!</a>
+						Vous n'avez pas encore de compte ? <a href="login.view.php">Créez-en un ici!</a>
                         </p1>
 					</div>
                     <br></br>
@@ -30,7 +30,7 @@
                     <br></br>
 					<div>
 						<p2>
-                            <img class="img1" src="/Users/kandassamywildrick/Desktop/configuration.png" alt="configuration"> Options de connexion
+                            <img class="img1" src="../ressources/configuration.jpg" alt="configuration"> Options de connexion
                         </p2>
 					</div>
 				</form>
