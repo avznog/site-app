@@ -1,0 +1,88 @@
+body{
+	background-color: #D0C5EE;
+	font-size: medium;
+	font-weight: bold;
+	font-family: georgia;
+}
+
+#menu{
+	display: flex;
+	background-color: white;
+	margin: 0px;
+}
+
+.logo{
+	width: 40px;
+	height: 40px;
+	padding: 3px 3px 0px 3px;
+}
+
+.liste{
+	display: flex;
+	list-style-type: none;
+}
+
+.bienvenue{
+	width: 900px;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.profil, .donnees{
+	width: 200px;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	}
+
+#info{
+	display: flex;
+
+}
+
+
+
+#choix{
+	width: 150px;
+	height: 80px;
+	margin-top: 10%;
+	text-align: center;
+	margin-left: 10%;
+
+}
+
+
+
+.bouton{
+	background-color: black;
+	color: white;
+	padding: 2px 0px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	height: 40px;
+}
+
+.boutonMdP{
+	background-color: white;
+	border-radius: 0px 0px 5px 5px;
+	height: 40px;
+}
+
+
+#bloc{
+	background-color: white;
+	width: 40%;
+	margin: 7% 0% 0% 7%;
+	padding: 10px;
+	border-radius: 20px;
+	height: 300px;
+	text-align: left;
+}
+
+.nom{
+	padding-left: 100px;
+}
+
+.prenom{
+	padding-right: 80px	;
+}
