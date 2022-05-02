@@ -21,11 +21,11 @@
         
         <div class="l2">
             <p>Suivez nous : </p>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://m.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
         </div>
         <hr style="height:3px;border:none;border-top:5px double rgb(17, 16, 16);" />
         
