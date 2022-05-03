@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Header</title>
-    <link rel="stylesheet" type="text/css" href="../style/header.css"/>
+    <link rel="stylesheet" type="text/css" href="style/header.css"/>
 
 </head>
 <body>
