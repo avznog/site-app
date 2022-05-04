@@ -1,12 +1,15 @@
 <?php
-
-include("env.php");
 include("views/register.view.php");
+redirect("accueil.php");
+include("env.php");
+
 if(isset($_POST["register"]))
 if(register()){
-    makeRegister($db); 
+    makeRegister($db);
+    // redirect("accueil.php");
 }else{
     echo "Vous êtes déjà inscrit dans la base de données";
+    
 }
 
 function register(){
@@ -16,7 +19,7 @@ function register(){
 // Déjà dans la database: code false
 
     for($i=0;$i<sizeof($_SESSION["users"]);$i++){
-        echo $_SESSION["users"][$i]["mail"];
+        // echo $_SESSION["users"][$i]["mail"];
         if($_SESSION["users"] == $_SESSION["users"][$i]["mail"]){
             return false;
         }
@@ -25,7 +28,7 @@ function register(){
 }
 
 function makeRegister($db){
-   
+   redirect("accueil.php");
     $q = $db->prepare("INSERT INTO users (name, firstname, mail, job, password) VALUES (:name, :firstname, :mail, :job, :password)");
     $q->execute([
         'name' => $_POST["name"],
@@ -44,5 +47,5 @@ function makeRegister($db){
     
 }
 
-
+// include("footer.php");
 ?>

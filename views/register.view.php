@@ -42,7 +42,8 @@
                                     <input class="input2" type="tel" name="phone" placeholder="Numéro de téléphone">
                                 </div>
                                 <div>
-                                    <input type="submit" class="button" style="background-color:rgb(195, 166, 253)"  value="s'inscrire" name="register">
+                                    <button class="btn btnToLogin"><a href="login.php"> Déjà inscrit ? Connectez-vous !</a></button>
+                                    <input type="submit" class="btn" style="background-color:rgb(195, 166, 253)"  value="s'inscrire" name="register">
                                     
                                 </div>
                             </div>

@@ -16,7 +16,7 @@
 
 .wrap1 {
     width: 520px;
-    height: 500px;
+    height: 100%;
     padding : 30px;
     background: white;
     border-radius: 20px;
@@ -34,7 +34,7 @@
 
   /* Button ////////////////////////////////////////////////////////////////// */
 
-  button {
+  .btn {
     border: none;
     background-color: rgb(195, 166, 253);
     border-radius: 15px;
@@ -46,6 +46,10 @@
     width: 120px;
     margin: 5px;
     float: right;       
+ }
+
+ .btnToLogin{
+   font-size: xx-small;
  }
 
 button:hover {

@@ -1,0 +1,60 @@
+.container{
+    
+    background-color: rgb(195, 166, 253);
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.capteursContainer{
+    width: 400px;
+    height: 300px;
+    background-color: #E6DDCA;
+    padding: 2%;
+    border: solid grey 1px;
+    box-shadow: black 10px;
+
+}
+
+.sensorName{
+    padding: 1%;
+}
+
+.titleSensorDescription{
+    padding: 1%;
+}
+
+.description{
+    text-align: justify;
+    padding: 2%;
+}
+
+.smallerContainer{
+    display: grid;
+    padding: 3%;
+    text-align: center;
+    gap: 10%;
+
+}
+
+.firstcontainer{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.seccontainer{
+    grid-column: 2/2;
+    grid-row: 1;
+}
+
+
+.thirdcontainer{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.fourthcontainer{
+    grid-column: 2/2;
+    grid-row: 2;
+} 

@@ -21,12 +21,13 @@
 					</div>
 					<div>
                         <p1>
-						Vous n'avez pas encore de compte ? <a href="register.view.php">Créez-en un ici!</a>
+						Vous n'avez pas encore de compte ? <a href="register.php">Créez-en un ici!</a>
                         </p1>
 					</div>
                     <br></br>
                     <div>
-                        <input class="button" name="btnSuivant" style="background-color:rgb(195, 166, 253)" value="Suivant">
+						<input type="submit" name="login" class="btnLogin" value="Suivant" >
+                        
                         
                     </div>
                     <br></br>

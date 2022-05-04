@@ -52,7 +52,7 @@ border-bottom: 2px solid black;
 
 /* Button ////////////////////////////////////////////////////////////////// */
 
-  button {
+  .btnLogin {
      border: none;
      background-color: rgb(195, 166, 253);
      border-radius: 15px;
