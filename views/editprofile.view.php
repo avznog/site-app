@@ -9,7 +9,10 @@
 <body>
 
     <header id="entete">
-        <div><img class="logo" src="../ressources/Infinite_measures.gif" alt="logo Infinite Measures"/></div>
+        <div>
+            <!--<img class="logo" src="ressources/Infinite_measures.gif" alt="logo Infinite Measures"/>-->
+            <img class="logo" src="../ressources/Infinite_measures.gif" alt="logo Infinite Measures"/>
+        </div>
         <div class="page">
             <ul class="liste">
                 <li class="bienvenue">Bienvenue user</li>
@@ -23,7 +26,7 @@
     <div id="info">
         <div id="choix">
             <button class="bouton" onclick="location.href='editprofile.view.php';">Profil</button>
-            <button class="boutonMdP" onclick="location.href='editmotdepasse.php';">Mot de Passe</button>
+            <button class="boutonMdP" onclick="location.href='editpassword.view.php';">Mot de Passe</button>
         </div>
         <div id="bloc">
             <form method="POST">

@@ -108,6 +108,7 @@ input{
 	border: #D0C5EE;
 	border-radius: 10px;
 	height: 30px;
+	font-weight: inherit;
 	
 }
 
