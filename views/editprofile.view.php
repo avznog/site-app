@@ -2,15 +2,28 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style/editProfile.css">
+    <!--<link rel="stylesheet" type="text/css" href="style/editProfile.css">-->
+    <link rel="stylesheet" type="text/css" href="../style/editProfile.css">
     <title>editProfil</title>
 </head>
 <body>
+
+    <header id="entete">
+        <div><img class="logo" src="../ressources/Infinite_measures.gif" alt="logo Infinite Measures"/></div>
+        <div class="page">
+            <ul class="liste">
+                <li class="bienvenue">Bienvenue user</li>
+                <li><button class="donnees" onclick="location.href='mydata.view.php';">Mes données</button></li>
+                <li ><button class="profil" onclick="location.href='editprofile.view.php';">Profil</button></li>
+            </ul>
+        </div>
+        
+    </header>
     
     <div id="info">
         <div id="choix">
-            <div class="bouton">Mon Profil</div>
-            <div class="boutonMdP">Mot de Passe</div>
+            <button class="bouton" onclick="location.href='editprofile.view.php';">Profil</button>
+            <button class="boutonMdP" onclick="location.href='editmotdepasse.php';">Mot de Passe</button>
         </div>
         <div id="bloc">
             <form method="POST">
@@ -26,7 +39,7 @@
                 <input name="newphone" type="text" placeholder="00 00 00 00 00"/><br/><br/>
                 <label>Adresse électronique</label><br/>
                 <input name="newmail" type="text" placeholder="adresse@mail.com"/><br/><br/>
-                <input type="submit" name="btnSubmit"/>
+                <input class="MdP" type="submit" name="btnSubmit"/>
             </form>
         </div>
     </div>

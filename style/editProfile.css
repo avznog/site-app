@@ -1,5 +1,8 @@
 body{
 	background-color: #D0C5EE;
+}
+
+*{
 	font-size: medium;
 	font-weight: bold;
 	font-family: georgia;
@@ -7,11 +10,10 @@ body{
 	
 }
 
-#menu{
+#entete{
 	display: flex;
 	background-color: white;
 	margin: 0px;
-	
 }
 
 .logo{
@@ -26,17 +28,20 @@ body{
 }
 
 .bienvenue{
-	width: 900px;
+	width: 850px;
 	padding: 0px;
 	margin: 0px;
 
 }
 
 .profil, .donnees{
-	width: 200px;
-	padding: 0px;
+	width: 150px;
+	padding: 0px 3px 0px 0px;
 	margin: 0px;
-	text-align: left;
+	text-align: right;
+	background-color: white;
+	border: none;
+	
 	}
 
 #info{
@@ -61,15 +66,23 @@ body{
 .bouton{
 	background-color: black;
 	color: white;
-	padding: 2px 0px 0px 0px;
 	border-radius: 5px 5px 0px 0px;
-	height: 40px;
+	height: 50%;
+	border: none;
+	width: 100%;
 }
 
 .boutonMdP{
 	background-color: white;
 	border-radius: 0px 0px 5px 5px;
-	height: 40px;
+	height: 50%;
+	border: none;
+	width: 100%;
+}
+
+.boutonMdP:hover{
+	background-color: black;
+	color: white;
 }
 
 
@@ -81,6 +94,21 @@ body{
 	border-radius: 20px;
 	height: 400px;
 	text-align: center;
+}
+
+input{
+	font-weight: normal;
+	width: 40%;
+}
+
+
+.MdP{
+	background-color: #D0C5EE;
+	text-align: center;
+	border: #D0C5EE;
+	border-radius: 10px;
+	height: 30px;
+	
 }
 
 /* .nom{
