@@ -18,4 +18,8 @@ function redirect($page){
 $q2 = $db->prepare("SELECT * FROM data");
 $q2->execute();
 $_SESSION["data"] = $q2->fetchAll();
+
+$q3 = $db->prepare("SELECT * FROM point");
+$q3->execute();
+$_SESSION["points"] = $q3->fetchAll();
 ?>

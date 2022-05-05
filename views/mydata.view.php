@@ -1,3 +1,5 @@
+<?php include("env.php"); ?>
+
 <!DOCTYPE html>
 <head>
     <title>Mes données</title>
@@ -13,44 +15,65 @@
 
             <div class="capteursContainer firstcontainer">
                 <div class="caseCapteur">
-                    <h3 class="sensorName"><?php echo $_SESSION[0]["value"]; ?></h3>
+                    <h3 class="sensorName"><?php echo $_SESSION["data"][0]["name"]; ?></h3>
                     <div class="sensorDescritpion">
                         <h4 class="titleSensorDescription">Objectif: </h4>
                         <div class="description">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                           <?php echo $_SESSION["data"][0]["value"]; ?>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="capteursContainer seccontainer">
                 <div class="caseCapteur">
-                    <h3 class="sensorName">Nom du capteur</h3>
+                    <h3 class="sensorName"><?php echo $_SESSION["data"][1]["name"]; ?></h3>
                     <div class="sensorDescritpion">
                         <h4 class="titleSensorDescription">Objectif: </h4>
                         <div class="description">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <?php echo $_SESSION["data"][1]["value"]; ?>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="capteursContainer thirdcontainer">
                 <div class="caseCapteur">
-                    <h3 class="sensorName">Nom du capteur</h3>
+                    <h3 class="sensorName"><?php echo $_SESSION["data"][2]["name"]; ?></h3>
                     <div class="sensorDescritpion">
                         <h4 class="titleSensorDescription">Objectif: </h4>
                         <div class="description">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <?php echo $_SESSION["data"][2]["value"]; ?>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="capteursContainer fourthcontainer">
                 <div class="caseCapteur">
-                    <h3 class="sensorName">Nom du capteur</h3>
+                    <h3 class="sensorName"><?php echo $_SESSION["data"][3]["name"]; ?></h3>
                     <div class="sensorDescritpion">
                         <h4 class="titleSensorDescription">Objectif: </h4>
                         <div class="description">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <?php echo $_SESSION["data"][3]["value"]; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="capteursContainer fifthcontainer">
+                <div class="caseCapteur">
+                    <h3 class="sensorName"><?php echo $_SESSION["data"][4]["name"]; ?></h3>
+                    <div class="sensorDescritpion">
+                        <h4 class="titleSensorDescription">Objectif: </h4>
+                        <div class="description">
+                        <?php echo $_SESSION["data"][4]["value"]; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="capteursContainer pointsContainer">
+                <div class="caseCapteur">
+                    <h3 class="sensorName">Points</h3>
+                    <div class="sensorDescritpion">
+                        <div class="description">
+                        <?php echo $_SESSION["points"][0]["value"]; ?>
                         </div>
                     </div>
                 </div>
