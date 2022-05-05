@@ -16,7 +16,7 @@
             <div class="c2">
                 <p><a class="jiacu" href="">Support client</a></p>
                 <p><a href="">Questions fréquentes</a></p>
-                <p><a href="faq.html">FAQ</a></p>
+                <p><a href="faq.view.php">FAQ</a></p>
             </div>
         </div>
         
