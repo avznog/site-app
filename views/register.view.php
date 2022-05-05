@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <head>
     <title>login</title>
-    <link rel="stylesheet" type="text/css" href="style/register.css" />
+    <!--<link rel="stylesheet" type="text/css" href="style/register.css" />-->
+    <link rel="stylesheet" type="text/css" href="../style/register.css" />
 </head>
 <body>
 <div class="limiter1">
 		<div class="container1" style="background-color : rgb(195, 166, 253);">
 			<div class="wrap1">
                     <a href="accueil.php">
-                        <img class="img2" src="ressources/Infinite_measures.gif" alt="Infinite Measures">
+                        <!--<img class="img2" src="ressources/Infinite_measures.gif" alt="Infinite Measures">-->
+                        <img class="img2" src="../ressources/Infinite_measures.gif" alt="Infinite Measures">
                     </a>
                     <div class="headwrap1">
                         <h1>Créez votre compte Take'R</h1>
@@ -42,7 +44,7 @@
                                     <input class="input2" type="tel" name="phone" placeholder="Numéro de téléphone">
                                 </div>
                                 <div>
-                                    <button class="btn btnToLogin"><a href="login.php"> Déjà inscrit ? Connectez-vous !</a></button>
+                                    <button class="btn btnToLogin"><a href="login.view.php"> Déjà inscrit ? Connectez-vous !</a></button>
                                     <input type="submit" class="btn" style="background-color:rgb(195, 166, 253)"  value="s'inscrire" name="register">
                                     
                                 </div>

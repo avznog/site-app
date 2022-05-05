@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
     <!-- <title>Footer</title> -->
-    <link rel="stylesheet" href="style/footer.css" type="text/css" />
+    <!--<link rel="stylesheet" type="text/css" href="style/footer.css" />-->
+    <link rel="stylesheet" href="../style/footer.css" type="text/css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"> -->
 </head>
 <body>
