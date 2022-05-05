@@ -3,12 +3,15 @@ body{
 	font-size: medium;
 	font-weight: bold;
 	font-family: georgia;
+	
+	
 }
 
 #menu{
 	display: flex;
 	background-color: white;
 	margin: 0px;
+	
 }
 
 .logo{
@@ -38,6 +41,7 @@ body{
 
 #info{
 	display: flex;
+	height: 500px;
 
 }
 
@@ -75,14 +79,14 @@ body{
 	margin: 7% 0% 0% 7%;
 	padding: 10px;
 	border-radius: 20px;
-	height: 300px;
-	text-align: left;
+	height: 400px;
+	text-align: center;
 }
 
-.nom{
+/* .nom{
 	padding-left: 100px;
-}
-
+} */
+/* 
 .prenom{
 	padding-right: 80px	;
-}
+} */
