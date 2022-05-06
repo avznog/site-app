@@ -41,7 +41,7 @@
                 <li class="header-list-element header-list-element-five">
                     <a href="faq.view.php" class="header-title-link">
                         <h1 class="header-list-element-title">
-                            FAQ
+                            Aide
                         </h1>
                     </a>
                 </li>
