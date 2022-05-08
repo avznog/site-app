@@ -8,20 +8,6 @@
 </head>
 
 <body>
-    <header id="entete">
-        <div>
-            <!--<img class="logo" src="ressources/Infinite_measures.gif" alt="logo Infinite Measures"/>-->
-            <img class="logo" src="../ressources/Infinite_measures.gif" alt="logo Infinite Measures"/>
-        </div>
-        <div class="page">
-            <ul class="liste">
-                <li class="bienvenue">Bienvenue user</li>
-                <li><button class="donnees" onclick="location.href='mydata.view.php';">Mes données</button></li>
-                <li ><button class="profil" onclick="location.href='editprofile.view.php';">Profil</button></li>
-            </ul>
-        </div>
-        
-    </header>
     <div class="container">
         <div class="headerContainer">
             <h1 class="titleCapteurs">Capteurs</h1>

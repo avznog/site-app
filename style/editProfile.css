@@ -10,39 +10,6 @@ body{
 	
 }
 
-#entete{
-	display: flex;
-	background-color: white;
-	margin: 0px;
-}
-
-.logo{
-	width: 40px;
-	height: 40px;
-	padding: 3px 3px 0px 3px;
-}
-
-.liste{
-	display: flex;
-	list-style-type: none;
-}
-
-.bienvenue{
-	width: 850px;
-	padding: 0px;
-	margin: 0px;
-
-}
-
-.profil, .donnees{
-	width: 150px;
-	padding: 0px 3px 0px 0px;
-	margin: 0px;
-	text-align: right;
-	background-color: white;
-	border: none;
-	
-	}
 
 #info{
 	display: flex;

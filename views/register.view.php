@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="limiter1">
-		<div class="container1" style="background-color : rgb(195, 166, 253);">
+		<div class="container1" style="background-color : #D0C5EE;">
 			<div class="wrap1">
                     <a href="accueil.php">
                         <!--<img class="img2" src="ressources/Infinite_measures.gif" alt="Infinite Measures">-->
@@ -45,7 +45,7 @@
                                 </div>
                                 <div>
                                     <button class="btn btnToLogin"><a href="login.view.php"> Déjà inscrit ? Connectez-vous !</a></button>
-                                    <input type="submit" class="btn" style="background-color:rgb(195, 166, 253)"  value="s'inscrire" name="register">
+                                    <input type="submit" class="btn" style="background-color:#D0C5EE"  value="s'inscrire" name="register">
                                     
                                 </div>
                             </div>
