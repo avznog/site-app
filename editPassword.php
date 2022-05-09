@@ -1,6 +1,6 @@
 <?php
 include("header.php");
-include("views/editprofile.view.php");
+include("views/editpassword.view.php");
 include("env.php");
 if(isset($_POST["btnSubmit"])){
     $req = $db->prepare('UPDATE user SET name = :name, firstname = :firstname, birthdate = :birthdate, country = :country, phone = :phone , mail = :mail WHERE iduser = 0');

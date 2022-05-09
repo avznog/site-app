@@ -2,16 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <!--<link rel="stylesheet" type="text/css" href="style/editProfile.css">-->
-    <link rel="stylesheet" type="text/css" href="../style/editProfile.css">
+    <link rel="stylesheet" type="text/css" href="style/editProfile.css">
     <title>editProfil</title>
 </head>
     <body>
         
         <div id="info">
             <div id="choix">
-                <button class="bouton" onclick="location.href='editprofile.view.php';">Profil</button>
-                <button class="boutonMdP" onclick="location.href='editpassword.view.php';">Mot de Passe</button>
+                <button class="bouton" onclick="location.href='editprofile.php';">Profil</button>
+                <button class="boutonMdP" onclick="location.href='editpassword.php';">Mot de Passe</button>
             </div>
             <div id="bloc">
                 <form method="POST">

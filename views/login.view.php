@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>connection</title>
-    <!--<link rel="stylesheet" type="text/css" href="style/login.css" />-->
-    <link rel="stylesheet" type="text/css" href="../style/login.css" />
+    <link rel="stylesheet" type="text/css" href="style/login.css" />
 </head>
 <body>
 <div class="limiter">
@@ -10,8 +9,7 @@
 			<div class="wrap">
 				<form class="login-form" method="POST">
 					<a href="accueil.php">
-					<!--<img class="img" style="width: 40px;height:40px;" src="ressources/Infinite_measures.gif" alt="Infinite Measures">-->
-					<img class="img" style="width: 40px;height:40px;" src="../ressources/Infinite_measures.gif" alt="Infinite Measures">
+					<img class="img" style="width: 40px;height:40px;" src="ressources/Infinite_measures.gif" alt="Infinite Measures">
 					</a>
 					<h2>Connexion</h2>
 					<br></br>
@@ -35,8 +33,7 @@
                     <br></br>
 					<div>
 						<p2>
-                            <!--<img class="img1" src="ressources/configuration.jpg" alt="configuration">-->
-                            <img class="img1" src="../ressources/configuration.jpg" alt="configuration"> Options de connexion
+                            <img class="img1" src="ressources/configuration.jpg" alt="configuration"> Options de connexion
                         </p2>
 					</div>
 				</form>

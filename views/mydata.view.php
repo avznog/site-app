@@ -3,8 +3,7 @@
 <!DOCTYPE html>
 <head>
     <title>Mes données</title>
-    <!--<link rel="stylesheet" type="text/css" href="style/mydata.css" />-->
-    <link rel="stylesheet" type="text/css" href="../style/mydata.css" />
+    <link rel="stylesheet" type="text/css" href="style/mydata.css" />
 </head>
 
 <body>
