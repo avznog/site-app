@@ -21,7 +21,7 @@
 					</div>
 					<div>
                         <p1>
-						Vous n'avez pas encore de compte ? <a href="register.view.php">Créez-en un ici!</a>
+						Vous n'avez pas encore de compte ? <a href="register.php">Créez-en un ici!</a>
                         </p1>
 					</div>
                     <br></br>
