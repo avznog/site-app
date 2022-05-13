@@ -1,9 +1,10 @@
 <?php
 include("views/register.view.php");
-redirect("accueil.php");
+
 include("env.php");
 
 if(isset($_POST["register"]))
+
 if(register()){
     makeRegister($db);
     // redirect("accueil.php");
@@ -28,7 +29,7 @@ function register(){
 }
 
 function makeRegister($db){
-   redirect("accueil.php");
+   
     $q = $db->prepare("INSERT INTO users (name, firstname, mail, job, password) VALUES (:name, :firstname, :mail, :job, :password)");
     $q->execute([
         'name' => $_POST["name"],
@@ -43,6 +44,7 @@ function makeRegister($db){
     $_SESSION["job"] = $_POST["job"];
 
     redirect("accueil.php");
+    
 
     
 }
