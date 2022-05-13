@@ -2,6 +2,7 @@
 <head>
     <!-- <title>Header</title> -->
     <link rel="stylesheet" type="text/css" href="style/header.css"/>
+    
 
 </head>
 <body>
@@ -14,7 +15,8 @@
                     </a>
                 </li>
                 <li class="header-list-element header-list-element-two">
-                    <a href="accueil.php" class="header-title-link">
+                    <!--<a href="accueil.php" class="header-title-link">-->
+                        <a href="accueil.php" class="header-title-link">
                         <h1 class="header-list-element-title">
                             Les solutions Take'R
                         </h1>
@@ -37,7 +39,7 @@
                 <li class="header-list-element header-list-element-five">
                     <a href="faq.php" class="header-title-link">
                         <h1 class="header-list-element-title">
-                            FAQ
+                            Aide
                         </h1>
                     </a>
                 </li>

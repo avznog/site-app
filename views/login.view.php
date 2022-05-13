@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="limiter">
-		<div class="container" style="background-color : rgb(195, 166, 253);">
+		<div class="container" style="background-color : #D0C5EE;">
 			<div class="wrap">
 				<form class="login-form" method="POST">
 					<a href="accueil.php">
