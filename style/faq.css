@@ -1,6 +1,7 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 body{
     display: flex;
@@ -13,7 +14,7 @@ body{
     margin-right: auto;
     padding-top: 10px;
 }
-.question{
+.faq-question{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +22,7 @@ body{
     margin-top: 20px;
     
 }
-.q{
+.faq-q{
     max-width: 1000px;
     padding: 20px 20px;
     margin: 0 auto;
@@ -32,7 +33,7 @@ body{
     border-radius: 30px;
     
 }
-h2{
+.QUE{
     display: block;
     text-align: center;
     background-color: #D0C5EE ;
@@ -41,7 +42,7 @@ h2{
     padding: 20px 20px;
     margin: 0 auto;
 }
-p{
+.REP{
     display: none;
     background-color: #D0C5EE ;
     border-radius: 30px;
@@ -61,7 +62,7 @@ p{
     display: none;
 }
 
-.show-text p{
+.show-text .REP{
     display: block;
 }
 
