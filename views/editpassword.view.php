@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style/editpassword.css">
 	<title>Mot de Passe</title>
 </head>
-	<body>
+	<body id="corps">
 		<div id="info">
 			<div id="choix">
 				<button class="bouton" onclick="location.href='editprofile.php';">Profil</button>
@@ -13,11 +13,13 @@
 			</div>
 
 			<div id="bloc">
-	    		<label for="pass">Mot de passe actuel</label><br/>
-	    		<input type="password" id="pass" name="password"><br/><br/>
-			    <label for="pass">Nouveau mot de passe (8 charactères minimum)</label><br/>
-			    <input type="password" id="pass" name="password" minlength="8" required><br/><br/><br/>
-			    <input class="MdP" type="submit" value="Changer mon mot de passe"><br/>
+				<form method="POST">
+		    		<label for="pass">Mot de passe actuel</label><br/>
+		    		<input type="password" id="pass" name="password"><br/><br/>
+				    <label for="pass">Nouveau mot de passe (8 charactères minimum)</label><br/>
+				    <input type="password" id="pass" name="password" minlength="8" required><br/><br/><br/>
+				    <input class="MdP" type="submit" value="Changer mon mot de passe"><br/>
+				</form>
 			</div>
 		</div>
 			

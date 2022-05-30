@@ -18,15 +18,15 @@
     }
 
     .header-list-element{
-        width: 20%;
+        width: 16%;
         float: left;
-        text-align: center;
+        
     }
 
     .header-title-link{
         text-decoration: none;
         color: black;
-        text-align: left;
+        text-align: center;
     }
 
     .header-list-element-img{
@@ -37,5 +37,7 @@
     .header-list-element-one{
         text-align: left;
     }
+
+    
 
 }
