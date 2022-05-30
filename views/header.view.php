@@ -25,7 +25,7 @@
                 </li>
                 <li class="header-list-element header-list-element-six">
                     <!--<a href="accueil.php" class="header-title-link">-->
-                        <a href="accueil.php" class="header-title-link">
+                        <a href="ludique.php" class="header-title-link">
                         <h1>
                             Application Ludique
                         </h1>
