@@ -1,0 +1,51 @@
+.accueil-first-block{
+  background-image: url("../ressources/background-work.png");
+  height: 595px;
+}
+
+.accueil-title-first-block{
+  text-align: center;
+  vertical-align: middle;
+  color: green;
+  height: 100%;
+}
+
+.accueil-second-block{
+  background-color: #D0C5EE;
+  display: block;
+  text-align: center;
+}
+
+.accueil-button-connection{
+  background-color: green;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: right;
+  font-size: xx-large;
+  border: 0px;
+  height: 10%;
+  width: 10%
+  
+}
+
+.accueil-horizontal-info{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.accueil-text-description{
+  float: center;
+  width: 50%;
+}
+
+.accueil-phone-img{
+  float: left;
+  padding-left: 25%;
+}
+
+.acceuil-computer-img{
+  float: right;
+  padding-right: 25%;
+}
