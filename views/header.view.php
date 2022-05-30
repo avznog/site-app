@@ -52,6 +52,11 @@
                         </h1>
                     </a>
                 </li>
+                <li class="header-list-element header-list-element-five">
+                    <a href="editProfile.php" class="header-title-link">
+                        <img src="ressources/profile.png" class="header-img-profile"/>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
