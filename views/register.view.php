@@ -14,7 +14,7 @@
                         <h1>Créez votre compte Take'R</h1>
                     </div>
                     <br></br>
-				<form class="registration" method="POST">
+				<form class="registration" method="POST" action="register.php">
                             <div class="inputgroup">
                                 <!-- Les REQUIRED ONT ETE SUPPRIMES POUR UNE SIMPLICITE DE TEST ET DE DEVELOPPEMENT -->
                                 <div>
@@ -43,7 +43,7 @@
                                 </div>
                                 <div>
                                     <button class="btn btnToLogin"><a href="login.php"> Déjà inscrit ? Connectez-vous !</a></button>
-                                    <input type="submit" class="btn" style="background-color:#D0C5EE"  value="s'inscrire" name="register">
+                                    <input type="submit" class="btn" style="background-color:#D0C5EE" value="s'inscrire" name="register">
                                     
                                 </div>
                             </div>
