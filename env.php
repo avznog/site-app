@@ -3,7 +3,7 @@ session_start();
 $db = new PDO(
     "mysql:host=localhost;dbname=site-app",
     "root",
-    ""
+    "root"
 );  
 
 $q = $db->prepare("SELECT * FROM user");

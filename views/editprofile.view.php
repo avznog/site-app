@@ -26,7 +26,7 @@
                     <input name="newphone" type="text" placeholder="00 00 00 00 00"/><br/><br/>
                     <label>Adresse électronique</label><br/>
                     <input name="newmail" type="text" placeholder="adresse@mail.com"/><br/><br/>
-                    <input class="MdP" type="submit" name="btnSubmit"/>
+                    <input class="MdP" type="submit" name="btnSubmit" />
                 </form>
             </div>
         </div>
