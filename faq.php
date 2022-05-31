@@ -25,7 +25,7 @@
     } 
     ?>
     <div class="imgfaq">
-        <img  src="resources/faq.jfif" alt="">
+        <img  src="ressources/faq.jfif" alt="">
     </div>
     <?php
         $requet = "SELECT question, answer FROM faq";
