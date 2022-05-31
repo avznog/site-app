@@ -3,15 +3,16 @@ include("views/register.view.php");
 
 include("env.php");
 
-if(isset($_POST["register"]))
-
-if(register()){
-    makeRegister($db);
-    // redirect("accueil.php");
-}else{
-    echo "Vous êtes déjà inscrit dans la base de données";
-    
+if(isset($_POST["register"])){
+    if(register()){
+        makeRegister($db);
+        // redirect("accueil.php");
+    }else{
+        echo "Vous êtes déjà inscrit dans la base de données";   
+    }
 }
+
+
 
 function register(){
 

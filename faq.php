@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
-    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="style/faq.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     
 </head>
@@ -14,7 +14,7 @@
     include("header.php");
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "root";
     $DB_NAME = "site-app";
     // Create connection
     $conn = new mysqli($servername, $username, $password,$DB_NAME);
