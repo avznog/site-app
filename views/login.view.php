@@ -14,23 +14,25 @@
 					<h2>Connexion</h2>
 					<br></br>
 					<div class="inputwrap">
-						<input class="inputtext" type="text" name="mailOrPhone" placeholder="Email ou Téléphone" required>
-					</div>
+						<label class="inputtext">Email ou Téléphone</label>
+						<input class="inputtext" type="text" name="mailOrPhone" required>
+					</div><br/>
 					<div class="inputwrap2">
-						<input class="inputtext" type="password" name="password" placeholder="Mot de passe" minlength="8" required>
+						<label class="inputtext">Mot de Passe</label>
+						<input class="inputtext" type="password" name="password" minlength="8" required>
 					</div>
 					<div>
                         <p1>
 						Vous n'avez pas encore de compte ? <a href="register.php">Créez-en un ici!</a>
                         </p1>
 					</div>
-                    <br></br>
+                    <br/>
                     <div>
 						<input type="submit" name="login" class="btnLogin" value="Suivant" >
                         
                         
                     </div>
-                    <br></br>
+
 					<div>
 						<p2>
                             <img class="img1" src="ressources/configuration.jpg" alt="configuration"> Options de connexion
