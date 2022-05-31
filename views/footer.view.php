@@ -21,7 +21,7 @@
         <div class="footer-c2">
             <p class="jiacu"><a class="jiacu" href="">Support client</a></p>
             <p class="footer-LJ"><a class="footer-lj" href="">Questions fréquentes</a></p>
-            <p class="footer-LJ"><a class="footer-lj" href="faq.php">FAQ</a></p>
+            <p class="footer-LJ"><a class="footer-lj" href="./faq.php">FAQ</a></p>
         </div>
     </div>
     
