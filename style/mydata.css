@@ -4,7 +4,7 @@
     background-color: #D0C5EE;
     height: 600px;
     width: 100%;
-    
+    text-align: center;
 }
 
 
@@ -13,8 +13,10 @@
     height: 100px;
     background-color: #E6DDCA;
     padding: 2%;
-    border: solid grey 1px;
-    box-shadow: black 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 10px -7px; 
+    
+    
+    border-radius: 30px;
 
 }
 

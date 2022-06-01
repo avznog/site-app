@@ -1,17 +1,21 @@
+*{
+  text-align: center;
+}
 .accueil-first-block{
   background-image: url("../ressources/background-work.png");
   height: 595px;
+  text-align: center;
+  
 }
 
 .accueil-title-first-block{
-  text-align: center;
-  vertical-align: middle;
   color: green;
-  height: 100%;
+  vertical-align: baseline;
 }
 
 .accueil-second-block{
   background-color: #D0C5EE;
+  height: 400px;
   display: block;
   text-align: center;
 }
@@ -29,6 +33,17 @@
   
 }
 
+.accueil-horizontal-info {
+  display: flex;
+  
+}
+
+.to-center{
+  text-align: center;
+  
+}
+
+/* 
 .accueil-horizontal-info{
   display: inline-block;
   width: 100%;
@@ -48,4 +63,4 @@
 .acceuil-computer-img{
   float: right;
   padding-right: 25%;
-}
+} */

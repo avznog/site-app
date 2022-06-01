@@ -14,13 +14,13 @@
 <footer class="footer">
     <div class="footer-l1">
         <div class="footer-c1">
-            <p class="jiacu"><a class="jiacu" href="">Entreprise</a></p>
-            <p class="footer-LJ"><a class="footer-lj" href="">Qui sommes-nous ?</a></p>
-            <p class="footer-LJ"><a class="footer-lj" href="">Contact</a></p>
+            <p class="jiacu"><a class="jiacu" href="accueil.php">Entreprise</a></p>
+            <p class="footer-LJ"><a class="footer-lj" href="faq.php">Qui sommes-nous ?</a></p>
+            <p class="footer-LJ"><a class="footer-lj" href="faq.php">Contact</a></p>
         </div>
         <div class="footer-c2">
-            <p class="jiacu"><a class="jiacu" href="">Support client</a></p>
-            <p class="footer-LJ"><a class="footer-lj" href="">Questions fréquentes</a></p>
+            <p class="jiacu"><a class="jiacu" href="faq.pph">Support client</a></p>
+            <p class="footer-LJ"><a class="footer-lj" href="faq.php">Questions fréquentes</a></p>
             <p class="footer-LJ"><a class="footer-lj" href="./faq.php">FAQ</a></p>
         </div>
     </div>
@@ -33,18 +33,15 @@
         <a href=""><i class="fa-brands fa-facebook-f"></i></a>
         <a href=""><i class="fa-brands fa-twitter"></i></a>
     </div>
-    <hr style="height:3px;border:none;border-top:5px double rgb(17, 16, 16);" />
-    
-
     <div class="footer-l3">
         <div class="l3-left">
             <p class="l3-left-wz">&copy; 2022 Gaïa Protect incorporation et de ses filiales. Tous droits réservés. Take’R</p>
         </div>
 
         <div class="l3-right">
-            <p class="l3-right-LJ"><a class="l3-right-lj" href="">Politique de confidentialité</a>
-            <a class="l3-right-lj" href="">Mentions légales</a>
-            <a class="l3-right-lj" href="">Cookies</a></p>
+            <p class="l3-right-LJ"><a class="l3-right-lj" href="faq.php">Politique de confidentialité</a>
+            <a class="l3-right-lj" href="faq.php">Mentions légales</a>
+            <a class="l3-right-lj" href="faq.php">Cookies</a></p>
         </div>
     </div>
 </footer>

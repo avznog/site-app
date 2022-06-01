@@ -2,13 +2,13 @@ body{
 	background-color: #D0C5EE;
 }
 
-*{
+/* *{
 	font-size: medium;
 	font-weight: bold;
 	font-family: georgia;
 	
 	
-}
+} */
 
 
 #info{
@@ -70,9 +70,9 @@ input{
 
 
 .MdP{
-	background-color: #D0C5EE;
+	background-color: #aae87a;
 	text-align: center;
-	border: #D0C5EE;
+	border: #aae87a;
 	border-radius: 10px;
 	height: 30px;
 	font-weight: inherit;

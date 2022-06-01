@@ -7,12 +7,13 @@
 
 </head>
 <body>
+    <header>
+        
     <div class="header-nav-div">
-        <nav class="header-nav">
             <ul class="header-main-list">
-                <li class="header-list-element header-list-element-one">
+                <li class="header-list-element-one">
                     <a href="accueil.php" class="header-title-link">
-                        <img src="ressources/Infinite_measures.gif" class="header-list-element-img"/>
+                        <img src="ressources/infinite_measure.png" class="header-list-element-img"/>
                     </a>
                 </li>
                 <li class="header-list-element header-list-element-two">
@@ -52,13 +53,14 @@
                         </h1>
                     </a>
                 </li>
-                <li class="header-list-element header-list-element-five">
+                <li class="header-list-element-five">
                     <a href="editProfile.php" class="header-title-link">
                         <img src="ressources/profile.png" class="header-img-profile"/>
                     </a>
                 </li>
             </ul>
-        </nav>
+        
     </div>
+</header>
 </body>
 </html>

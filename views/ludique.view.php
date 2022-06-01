@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style/ludique.css">
+		<script type="text/javascript" src="ludique.js"></script>
 		<title>Application Ludique</title>
 	</head>
 	<body id="corps">

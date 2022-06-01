@@ -8,9 +8,7 @@
 		<div class="container" style="background-color : #D0C5EE;">
 			<div class="wrap">
 				<form class="login-form" method="POST">
-					<a href="accueil.php">
-					<img class="img" style="width: 40px;height:40px;" src="ressources/Infinite_measures.gif" alt="Infinite Measures">
-					</a>
+					<img class="img" style="width: 40px;height:40px;" src="ressources/infinite_measure.png" alt="Infinite Measures">
 					<h2>Connexion</h2>
 					<br></br>
 					<div class="inputwrap">

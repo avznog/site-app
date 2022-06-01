@@ -3,48 +3,27 @@
 }
 
 @media screen and (min-width: 600px) {
-    .header-nav-div{
-        background-color: #E1DBD2;
-        height: 115px;    
-        border-radius: 25px;
-        border: solid black 1px;
+   
+header{
+    height: 110px;
+    background-color: #f1e9dc;
+    border: 1px solid black;
+    padding: 10px;
+}    
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+     float: left;
+     width: 14%;
+     text-align: center;
+     list-style-type: none;
     }
 
-    .header-main-list{
-        display: inline-block;
-        width: 100%;
-        list-style: none;
-        padding: 10px;
-        
-    }
-
-    .header-list-element{
-        width: 14%;
-        float: left;
-        
-    }
-
-    .header-title-link{
-        text-decoration: none;
-        color: black;
-        text-align: center;
-    }
-
-    .header-list-element-img{
-        height: 90px;
+    img{
         width: 90px;
+        height: 90px;
     }
-
-    .header-list-element-one{
-        text-align: left;
-    }
-
-    .header-img-profile{
-        float: right;
-        width: 15%;
-        height: 15%;
-    }
-
-    
-
 }

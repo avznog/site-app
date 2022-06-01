@@ -5,7 +5,8 @@
 }
 
 .footer{
-    background-color:#87B748;
+    background-color:#f1e9dc;
+    border: 1px solid black;
     
 }
 
@@ -53,13 +54,13 @@
 .footer-l2-wz{
     font-size: 20px;
     padding-left: 20px;
-    color: white;
+    color: black;
     margin-top: 10px;
 }
 .footer-l2 i{
     padding-left: 30px;
     font-size: 2rem;
-    color: white;
+    color: black;
     padding-top: 8px;
     padding-right: 10px;
 }
@@ -73,7 +74,7 @@
     float: left;
     width: 380px;
     padding-left: 20px;
-    color: white;
+    color: black;
 }  
 .l3-right{
     position: absolute;
@@ -88,7 +89,7 @@
     text-align: center;
     padding-left: 40px;
     font-size: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
     margin-top: 5px;
 }

@@ -8,7 +8,7 @@
 		<div class="container1" style="background-color : #D0C5EE;">
 			<div class="wrap1">
                     <a href="accueil.php">
-                        <img class="img2" src="ressources/Infinite_measures.gif" alt="Infinite Measures">
+                        <img class="img2" src="ressources/infinite_measure.png" alt="Infinite Measures">
                     </a>
                     <div class="headwrap1">
                         <h1>Créez votre compte Take'R</h1>
@@ -18,35 +18,35 @@
                             <div class="inputgroup">
                                 <!-- Les REQUIRED ONT ETE SUPPRIMES POUR UNE SIMPLICITE DE TEST ET DE DEVELOPPEMENT -->
                                 <div>
-                                    <label class="input">Prénom</label>
-                                    <input class="input" type="text" name="firstname" placeholder="Prénom">
-                                    <label class="input">Nom</label>
+                                    <label class="input">Prénom</label><br />
+                                    <input class="input" type="text" name="firstname" placeholder="Prénom"><br/>
+                                    <label class="input">Nom</label><br />
                                     <input class="input" type="text" name="name" placeholder="Nom de Famille" >
                                 </div>
                                 <div>
-                                    <label class="input2">Pays</label>
-                                    <input class="input2" type="text" name="birthPlace" placeholder="Pays de naissance" >
+                                    <label class="input2">Pays</label><br />
+                                    <input class="input2" type="text" name="birthPlace" placeholder="Pays de naissance" ><br />
                                 </div>
                                 <div>
-                                    <label class="input2">Date de naissance</label>
-                                    <input class="input2" type="text" name="birthDate" placeholder="Date de naissance (JJ/MM/AAAA)">
+                                    <label class="input2">Date de naissance</label><br />
+                                    <input class="input2" type="text" name="birthDate" placeholder="Date de naissance (JJ/MM/AAAA)"><br />
                                 </div>
                                 <hr></hr>
                                 <div>
-                                    <label class="input2">Adresse électronique</label>
+                                    <label class="input2">Adresse électronique</label><br />
                                     <input class="input2" type="mail" name="mail" placeholder="xyz@exemple.com" >
                                 </div>
                                 <div>
-                                    <label class="input2">Mot de Passe</label>
+                                    <label class="input2">Mot de Passe</label><br />
                                     <input class="input2" type="password" name="password" placeholder="Mot de passe" minlength="8" >
                                 </div>
                                 <div>
-                                    <label class="input2">Confirmez votre mot de passe</label>
+                                    <label class="input2">Confirmez votre mot de passe</label><br />
                                     <input class="input2" type="password" name="confirmPassword" placeholder="Confirmez le mot de passe" minlength="8" >
                                 </div>
                                 <hr></hr>
                                 <div>
-                                    <label class="input2">Téléphone</label>
+                                    <label class="input2">Téléphone</label><br />
                                     <input class="input2" type="tel" name="phone" placeholder="Numéro de téléphone">
                                 </div>
                                 <div>

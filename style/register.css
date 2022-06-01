@@ -10,8 +10,8 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-position: center;
+    align-items: left;
+    background-position: left;
   }
 
 .wrap1 {
@@ -57,12 +57,15 @@ button:hover {
  }
 
 /* Input ////////////////////////////////////////////////////////////////// */
-
- .inputgroup {
+.inputgroup{
+  text-align: center;
+}
+ /* .inputgroup {
     position: relative;
     margin-bottom: 8px;
   }
   .input{
+    text-align: left;
     width: 20%;
     line-height: 32px;
     border-radius: 5px;
@@ -70,8 +73,10 @@ button:hover {
     font-size: 13px;
     border-color: black;
     margin-bottom: 8px;
+  
   }
   .input2{
+    text-align: left;
     width: 50%;
     line-height: 32px;
     border-radius: 5px;
@@ -79,12 +84,12 @@ button:hover {
     font-size: 13px;
     border-color: black;
     margin-bottom: 8px;
-  }
+  } */
 
   /* Form ------------------------------------------------------------------ */
 
   hr{
-    color: grey;
+     color: grey;
     border: 1px solid grey;
     margin-bottom: 10px;
 }
@@ -101,4 +106,4 @@ button:hover {
   body{
   margin: 0;
   padding: 0;
-}
+} 

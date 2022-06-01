@@ -3,7 +3,6 @@ session_start();
 include("views/login.view.php");
 
 include("env.php");
-// echo $_SESSION["users"];
 
 for($i=0;$i<sizeof($_SESSION["users"]);$i++){
     
